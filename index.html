@@ -29,6 +29,33 @@
                     <h4 class="contents1">Architectural Enviornment & Building Mechanical Systems Labatory</h4>
                 </div>
             </div>
+            <div class="intro_img">
+                <img src="image/index/그림1.JPG" alt="이미지 1" width="800" height="500">
+                <img src="image/index/그림2.JPG" alt="이미지 2" width="800" height="500">
+                <img src="image/index/그림3.jpg" alt="이미지 3" width="800" height="500">
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+                    
+                    function showSlides() {
+                        let i;
+                        const slides = document.querySelectorAll('.intro_img img');
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = 'none';
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {
+                            slideIndex = 1;
+                        }
+                        slides[slideIndex - 1].style.display = 'block';
+                        setTimeout(showSlides, 5000); // n초마다 이미지 전환
+                    }
+                </script>
+            </div>
+            <div class="about">
+                쾌적하고 위생적이며 안전한 건축환경을 조성하기 위한 건축적 기법과 에너지 절약적 설비 및 신재생에너지 기술의 연구개발을 통해
+                <br>친환경 건축 또는 제로에너지건물 등으로 대변되는 지속가능한 건축물을 구현하기 위한 연구들을 학부 연구생, 석박사 과정 연구원이 참여하여 수행하고 있다.
+            </div>
             <!--intro end-->
             <div>
                 <ul class="amount">
@@ -60,40 +87,7 @@
             </div>
             <!--amount end-->
 
-            <div class="main_text0">
-                <h1>ABOUT</h1>
-                <div class="contents1">
-                    <div>쾌적하고 위생적이며 안전한 건축환경을 조성하기 위한 건축적 기법과 에너지 절약적 설비 및 신재생에너지 기술의 연구개발을 통해,</div>
-                    <div>친환경 건축 또는 제로에너지건물 등으로 대변되는 지속가능한 건축물을 구현하기 위한 연구들을 학부 연구생, 석박사 과정 연구원이 참여하여 수행하고 있다.</div>   
-                </div>
-                <ul class="icons">
-                    <li>
-                        <div class="icon_img">
-                            <img src="image/icon1.svg">
-                        </div>
-                        <div class="contents1_bold">친환경 건축</div>
-                        <div class="contents1_text">건축환경을 조성하기 위한 건축적 기법과 에너지 절약적 설비</div>
-                        <div class="more">MORE</div>
-                    </li>
-                    <li>
-                        <div class="icon_img">
-                            <img src="image/icon2.svg">
-                        </div>
-                        <div class="contents1_bold">친환경 건축</div>
-                        <div class="contents1_text">건축환경을 조성하기 위한 건축적 기법과 에너지 절약적 설비</div>
-                        <div class="more">MORE</div>
-                    </li>
-                    <li>
-                        <div class="icon_img">
-                            <img src="image/icon3.svg">
-                        </div>
-                        <div class="contents1_bold">친환경 건축</div>
-                        <div class="contents1_text">건축환경을 조성하기 위한 건축적 기법과 에너지 절약적 설비</div>
-                        <div class="more">MORE</div>
-                    </li>
-                </ul>
-            </div>
-            <!--main_text0 end-->
+            
 
 
             <!--footer start-->
@@ -104,15 +98,13 @@
                 <div>
                     AEBMSL in USW
                     <br>
-                    <br> Addr. 경기도 화성시 봉담읍 와우안길 17 수원대학교 2공학관 209호
-                    <br> Tel. 031-220-2355
+                    <br> TEL +82-31-220-2355
+                    <br> EMAIL chjeong@suwon.ac.kr
+                    <br> Address The Second Engineering Building 209, University of Suwon
+                    <br>
                     <br> COPYRIGHT 2023. AEBMSL. ALL RIGHT RESERVED.
                 </div>
             </footer>
-        </div>
-    </body>
-</html>
-
         </div>
     </body>
 </html>
