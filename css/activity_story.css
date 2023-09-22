@@ -78,29 +78,10 @@ footer > div > img {
     height: auto;
     padding-top: -20px;
 }
-
-/* footer */
-footer {
-    display: flex;
-    background: white;
-    padding: 30px;
-    border-top: 5px solid #578270;
-}
-footer > div:first-child {
-    flex: 4;
-    text-align: center;
-    color: black;
-}
-footer > div:last-child {
-    flex: 9;
-    color : black;
+.ftable {
+    width: 600px;
 }
 
-footer > div > img {
-    width: 300px;
-    height: auto;
-    padding-top: -20px;
-}
 
 
 /*research_main*/
