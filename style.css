@@ -184,3 +184,6 @@ footer > div > img {
     height: auto;
     padding-top: -50px;
 }
+.ftable {
+    width: 600px;
+}
