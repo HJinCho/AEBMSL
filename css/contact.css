@@ -78,7 +78,9 @@ footer > div > img {
     height: auto;
     padding-top: -20px;
 }
-
+.ftable {
+    width: 600px;
+}
 
 /*research_main*/
 .research {
