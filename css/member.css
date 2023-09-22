@@ -72,7 +72,7 @@ h1 {
 
 .member_page {
     width: 100%;
-    height: 2200px;
+    height: 2600px;
     padding-top: 100px;
 }
 
@@ -83,7 +83,7 @@ h1 {
     height: 2200px;
     margin-top: -10px;
 }
-
+.assistant1,
 .graduate {
     padding-top: 120px;
 }
