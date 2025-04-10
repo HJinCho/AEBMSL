@@ -93,43 +93,7 @@
             </div>
             <!--amount end-->
 
-            <!--팝업창 함수-->
-            <div id="popup" class="popup">
-                <img src="image/notice/2024_전기.jpg" alt="팝업 이미지" width="800" height="500">
-                <span class="close-btn" onclick="closePopup()">&times;</span>
-            </div>
-            <script>
-                let slideindex = 0;
-    
-                function showSlides() {
-                    let i;
-                    const slides = document.querySelectorAll('.intro_img img');
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = 'none';
-                    }
-                    slideIndex++;
-                    if (slideIndex > slides.length) {
-                        slideIndex = 1;
-                    }
-                    slides[slideIndex - 1].style.display = 'block';
-                    setTimeout(showSlides, 5000); // n초마다 이미지 전환
-                }
-    
-                // 팝업 관련 함수 추가
-                function openPopup() {
-                    document.getElementById('popup').style.display = 'flex';
-                }
-    
-                function closePopup() {
-                    document.getElementById('popup').style.display = 'none';
-                }
-    
-                // 페이지 로드 시 자동으로 팝업 열기
-                window.onload = function () {
-                    openPopup();
-                    showSlides(); // 팝업이 열리면서 슬라이드 쇼도 시작
-                };
-            </script>
+            
 
 
             <!--footer start-->
